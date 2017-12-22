@@ -1,5 +1,5 @@
 {
-  "name": "generator.pipe",
+  "name": "generator-pipe",
   "version": "0.0.0",
   "description": "A generator based map that can chain multiple functions without creating intermediate array in between the computation.",
   "main": "src/index.js",
