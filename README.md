@@ -1,11 +1,11 @@
 # Example
 
 ```shell
-$ npm install generator.pipe --save
+$ npm install gen-map --save
 ```
 
 ```javascript
-const GP = require('generator.pipe');
+const GP = require('gen-map');
 
 const gen = GP([3,4,5,6])
     .map(x => x * x)
