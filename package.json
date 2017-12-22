@@ -1,0 +1,42 @@
+{
+  "name": "generator.pipe",
+  "version": "0.0.0",
+  "description": "A generator based map that can chain multiple functions without creating intermediate array in between the computation.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "babel src -d build",
+    "test": "jest",
+    "prepublish": "npm run build"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobusGauli/generator.pipe.git"
+  },
+  "keywords": [
+    "generator",
+    "map",
+    "pipe"
+  ],
+  "author": "Robus Gauli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobusGauli/generator.pipe/issues"
+  },
+  "homepage": "https://github.com/RobusGauli/generator.pipe#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "jest": "^22.0.3"
+  }
+}
